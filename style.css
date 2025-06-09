@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image:url('https://www.shutterstock.com/image-vector/cricket-batsman-line-drawing-vector-600nw-2121338954.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background:#fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.role-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between buttons */
+  flex-wrap: wrap;
+}
+
+.role-options button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.role-options button:hover {
+  background: #1c7c34;
+}
+
+
+button:hover {
+  background: #0056b3;
+}
+
+.role-options button {
+  width: 45%;
+  margin: 10px 2.5%;
+  background: #28a745;
+}
+
+.role-options button:hover {
+  background: #1c7c34;
+}
+
+#fitnessResult {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}

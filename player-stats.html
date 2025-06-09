@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Player Stats - Cricket DB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="stats-body">
+  <div class="container">
+    <h2>Enter Player Stats</h2>
+    <form id="statsForm" onsubmit="return saveStats()">
+      <input type="text" id="playerName" placeholder="Player Name" required>
+      <input type="number" id="matches" placeholder="Matches Played" required>
+      <input type="number" id="runsOrWickets" placeholder="Runs/Wickets" required>
+      <input type="number" id="average" placeholder="Average" required>
+      <button type="submit">Next</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

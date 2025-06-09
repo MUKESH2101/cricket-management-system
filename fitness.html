@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness Checker - Cricket DB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fitness-body">
+  <div class="container">
+    <h2>Fitness Check</h2>
+    <form onsubmit="return checkFitness()">
+      <input type="number" id="weight" placeholder="Weight (kg)" required>
+      <input type="number" id="height" placeholder="Height (cm)" required>
+      <button type="submit">Check Fitness</button>
+    </form>
+    <div id="fitnessResult"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
